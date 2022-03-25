@@ -6,7 +6,7 @@ from django.core.exceptions import ValidationError
 from django.db import models
 from django.http import HttpResponse
 from django.shortcuts import redirect
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext as _
 from wagtail.core.models import Page
 
 from wagtailmenus.conf import settings
